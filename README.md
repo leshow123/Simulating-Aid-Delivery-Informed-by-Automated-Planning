@@ -1,9 +1,9 @@
 # Simulating-Aid-Delivery-Informed-by-Automated-Planning
-Abstract: A simulation implementation of an automated decision planning system for a robot in a disaster recovery context, by interfacing the navigation module. Goal tasks are defined by a planning problem and dispatched using ROSPlan.
+Abstract: A simulation implementation of an automated decision planning system for a robot in a disaster recovery context, by interfacing the navigation module. Goal tasks are defined by a planning problem and dispatched using ROSPlan. The project was conducted as part of Course TDDE05, AI Robotics at LiU, Sweden.
 
 Why is the project useful?
 
-The project motivates the Automated Planning in Robtics by extending the ROSPlan framework. Importantly, it shows how this can be achieved in a simulated environment prior
+The project showcases Automated Planning in Robtics by extending the ROSPlan framework. Importantly, it shows how this can be achieved in a simulated environment prior
 to deployment on a robot platform. A test-bed for both experimenced ROS users and beginners alike.
 
 The scenario simulated is that of aid deliveries to different waypoints where disaster victims have been identified. It could easily fit a grocery delivery use-case or
