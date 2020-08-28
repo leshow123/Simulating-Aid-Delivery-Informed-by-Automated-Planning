@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<launch>
+
+	
+
+	<!-- Arguments A. -->
+
+  	<arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle]"/>
+	<arg name="map_file" default="$(find prjtdde05)/mapping/the_map3.yaml"/>
+
+	<!-- Arguments B. -->
+
+	<arg name="domain_path"	default="$(find prjtdde05)/common/domain_turtlebot_demo.pddl" />
+	<arg name="problem_path" default="$(find prjtdde05)/common/problem.pddl" />
+
+	<arg name="action_duration"		default="3.0" />
+	<arg name="action_probability"	default="1.0" />
+	<arg name="knowledge_base"		default="rosplan_knowledge_base" />
+	<arg name="action_dispatch_topic"	default="/rosplan_plan_dispatcher/action_dispatch" />
+	<arg name="action_feedback_topic"	default="/rosplan_plan_dispatcher/action_feedback" />
+
+
+	<!-- SIMULATION / WORLD / MAP / BOT -->
+	
+
+	
+	<!-- Non-Simulated / Enforcer Action -->
+
+
+	<!-- fly-with-carrier -->   <!-- pkg="rosplan_interface_movebase"  type="rpmovebase"-->  <!--type="prjtdde05_enforcer"-->
+	<node name="rosplan_interface_FLY_WITH_CARRIER" pkg="rosplan_interface_movebase" type="rpmovebase" respawn="false" output="screen">  
+		<param name="knowledge_base" value="$(arg knowledge_base)" />
+		<param name="action_server" value="/move_base" />
+		<param name="pddl_action_name" value="flywithcarrier" />
+		<!--<param name="action_dispatch_topic" value="$(arg action_dispatch_topic)" />-->
+		<!--<param name="action_feedback_topic" value="$(arg action_feedback_topic)" />-->
+		<!--<param name="action_duration" value="60" /> -->          
+		<!--<param name="action_probability" value="$(arg action_probability)" /> -->
+
+	</node>
+
+
+	
+
+</launch>
+

@@ -1,0 +1,24 @@
+[submodule "catkin_ws/src/gazebo_ros_pkgs"]
+	path = catkin_ws/src/gazebo_ros_pkgs
+	url = https://github.com/ros-simulation/gazebo_ros_pkgs
+[submodule "catkin_ws/src/navigation"]
+	path = catkin_ws/src/navigation
+	url = https://github.com/ros-planning/navigation
+[submodule "catkin_ws/src/occupancy_grid_utils"]
+	path = catkin_ws/src/occupancy_grid_utils
+	url = https://github.com/clearpathrobotics/occupancy_grid_utils
+[submodule "catkin_ws/src/rosplan"]
+	path = catkin_ws/src/rosplan
+	url = https://github.com/KCL-Planning/ROSPlan/tree/master
+[submodule "catkin_ws/src/slam_gmapping"]
+	path = catkin_ws/src/slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping
+[submodule "catkin_ws/src/turtlebot3"]
+	path = catkin_ws/src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3/tree/kinetic-devel
+[submodule "catkin_ws/src/turtlebot3_msgs"]
+	path = catkin_ws/src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/kinetic-devel
+[submodule "catkin_ws/src/turtlebot3_simulations"]
+	path = catkin_ws/src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/kinetic-devel

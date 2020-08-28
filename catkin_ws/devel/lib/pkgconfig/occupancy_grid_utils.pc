@@ -1,0 +1,8 @@
+prefix=/home/olumide/TDDE05/catkin_ws/devel
+
+Name: occupancy_grid_utils
+Description: Description of occupancy_grid_utils
+Version: 0.0.10
+Cflags: -I/home/olumide/TDDE05/catkin_ws/devel/include -I/home/olumide/TDDE05/catkin_ws/src/occupancy_grid_utils/include
+Libs: -L/home/olumide/TDDE05/catkin_ws/devel/lib -lgrid_utils
+Requires: nav_msgs geometry_msgs sensor_msgs laser_geometry roscpp rospy tf tf2_bullet message_runtime

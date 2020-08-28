@@ -1,0 +1,8 @@
+prefix=/home/olumide/TDDE05/catkin_ws/devel
+
+Name: rosplan_planning_system
+Description: Description of rosplan_planning_system
+Version: 0.0.0
+Cflags: -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_planning_system/include -I/home/olumide/TDDE05/catkin_ws/devel/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/VAL/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/rddl_parser -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/cpp-base64 -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include
+Libs: -L/home/olumide/TDDE05/catkin_ws/devel/lib -lrosplan_action_interface
+Requires: roscpp rospy actionlib std_msgs std_srvs diagnostic_msgs rosplan_dispatch_msgs rosplan_knowledge_msgs

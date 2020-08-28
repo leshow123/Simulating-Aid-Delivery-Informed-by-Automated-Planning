@@ -1,0 +1,8 @@
+prefix=/home/olumide/TDDE05/catkin_ws/install
+
+Name: gazebo_dev
+Description: Description of gazebo_dev
+Version: 2.5.18
+Cflags: 
+Libs: -L/home/olumide/TDDE05/catkin_ws/install/lib 
+Requires: 

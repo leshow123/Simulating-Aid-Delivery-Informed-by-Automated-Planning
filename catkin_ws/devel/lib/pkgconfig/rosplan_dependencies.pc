@@ -1,0 +1,8 @@
+prefix=/home/olumide/TDDE05/catkin_ws/devel
+
+Name: rosplan_dependencies
+Description: Description of rosplan_dependencies
+Version: 0.1.0
+Cflags: -I/home/olumide/TDDE05/catkin_ws/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/VAL/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/rddl_parser -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/cpp-base64 -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/src
+Libs: -L/home/olumide/TDDE05/catkin_ws/devel/lib -lval_kcl -lrddl_parser -lippc_server -lppddl_parser
+Requires: roscpp rosplan_knowledge_msgs

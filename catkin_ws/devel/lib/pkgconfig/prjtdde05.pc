@@ -1,0 +1,8 @@
+prefix=/home/olumide/TDDE05/catkin_ws/devel
+
+Name: prjtdde05
+Description: Description of prjtdde05
+Version: 0.1.0
+Cflags: -I/home/olumide/TDDE05/catkin_ws/src/prjtdde05/include -I/home/olumide/TDDE05/catkin_ws/devel/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/VAL/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/rddl_parser -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ippc_server/cpp-base64 -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/include -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_dependencies/ppddl_parser/src -I/home/olumide/TDDE05/catkin_ws/src/rosplan/rosplan_planning_system/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include
+Libs: -L/home/olumide/TDDE05/catkin_ws/devel/lib 
+Requires: roscpp rospy std_msgs actionlib std_srvs diagnostic_msgs rosplan_dispatch_msgs rosplan_knowledge_msgs rosplan_planning_system

@@ -1,0 +1,74 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68140/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68140.dir/build.make CMakeFiles/cmTC_68140.dir/build
+make[1]: Entering directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68140.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_68140.dir/CheckSymbolExists.c.o   -c /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68140.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_68140.dir/CheckSymbolExists.c.o  -o cmTC_68140 -rdynamic 
+CMakeFiles/cmTC_68140.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_68140.dir/build.make:97: recipe for target 'cmTC_68140' failed
+make[1]: *** [cmTC_68140] Error 1
+make[1]: Leaving directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_68140/fast' failed
+make: *** [cmTC_68140/fast] Error 2
+
+File /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce838/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce838.dir/build.make CMakeFiles/cmTC_ce838.dir/build
+make[1]: Entering directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce838.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ce838.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce838.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ce838.dir/CheckFunctionExists.c.o  -o cmTC_ce838 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce838.dir/build.make:97: recipe for target 'cmTC_ce838' failed
+make[1]: *** [cmTC_ce838] Error 1
+make[1]: Leaving directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce838/fast' failed
+make: *** [cmTC_ce838/fast] Error 2
+
+
+Determining if the include file FL/Fl.H exists failed with the following output:
+Change Dir: /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaa1b/fast"
+make[1]: Entering directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aaa1b.dir/build.make CMakeFiles/cmTC_aaa1b.dir/build
+make[2]: Entering directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aaa1b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_aaa1b.dir/CheckIncludeFile.cxx.o -c /home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:19: fatal error: FL/Fl.H: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_aaa1b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aaa1b.dir/CheckIncludeFile.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTC_aaa1b.dir/CheckIncludeFile.cxx.o] Error 1
+make[2]: Leaving directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aaa1b/fast' failed
+make[1]: *** [cmTC_aaa1b/fast] Error 2
+make[1]: Leaving directory '/home/olumide/TDDE05/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+
